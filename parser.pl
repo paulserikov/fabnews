@@ -27,8 +27,6 @@ warn Dumper $res;
 
 
 # my $location = $labs->find_one( { "_id" => $id } )->fields( { location => 1});   # MongoDB::Cursor
-
-
 # while (my $row = $location->next) {
 #     print "$row\n";
 # }
